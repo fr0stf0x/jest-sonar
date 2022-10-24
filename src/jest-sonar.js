@@ -39,7 +39,7 @@ class JestSonar {
         return Object.assign(
             {},
             {
-                outputName: 'sonar-report.xml',
+                outputName: 'test-reporter.xml',
                 outputDirectory: config.coverageDirectory || '',
                 reportedFilePath: REPORTED_FILEPATH_RELATIVE,
                 relativeRootDir: config.rootDir || ''
