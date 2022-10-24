@@ -1,5 +1,5 @@
 {
-  "name": "jest-sonar",
+  "name": "@fr0stf0x/jest-sonar",
   "version": "0.2.12",
   "description": "A sonar reporter for jest",
   "keywords": [
@@ -10,11 +10,11 @@
     "report"
   ],
   "main": "index.js",
-  "repository": "git@github.com:sh33dafi/jest-sonar.git",
-  "author": "Yannick Houbrix <yannick.houbrix@gmail.com>",
+  "repository": "git@github.com:fr0stf0x/jest-sonar.git",
+  "author": "Thao Tang <tang.xuanthao1996@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "release": "standard-version -s",
+    "release": "standard-version",
     "test": "jest --collect-coverage",
     "lint": "eslint ."
   },
@@ -25,7 +25,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
     "husky": "8.0.1",
-    "jest": "28.1.0",
+    "jest": "^27.5.1",
     "prettier": "2.6.2",
     "semantic-release": "19.0.2",
     "standard-version": "9.5.0"
